@@ -1,0 +1,9 @@
+~presetName = "noodles metallic top | secondary: noodles shake";
+~primaryBuffers = ~fillNSamples.("noodles-imp-top_var", 7);
+~secondaryBuffers = ~fillNSamples.("noodles-shake_var", 6);
+~secondary = true;
+~ampfactor = 4.5;
+~ampfactorSecondary = 5.0.neg;
+~combFilterDryWet = 1.0;
+~hpfPrimary = 200.0;
+~secondaryMaxCount = 3;

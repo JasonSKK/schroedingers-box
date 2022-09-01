@@ -1,0 +1,26 @@
+TITLE:: Teager
+summary:: Discrete Teager Energy Operator.
+related:: Classes/FOS
+categories::  UGens>Filters>Linear
+
+
+Description::
+Discrete Teager Energy Operator. Gives an estimate of the instantaneous energy of a signal. Implements the equation y[n] = x[n]^2 - x[n-1]*x[n+1]
+
+classmethods::
+
+method::ar
+
+argument::in
+
+The input signal.
+
+
+
+
+Examples::
+
+code::
+s.boot;
+
+::

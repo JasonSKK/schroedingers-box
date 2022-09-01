@@ -1,1 +1,0 @@
-rsync -avzh ../bela/presets/sound* root@bela.local:Bela/projects/schroedingers_box/presets/
